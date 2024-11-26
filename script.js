@@ -87,9 +87,9 @@ var bodyMessage ="Name :" +fullName +
 "<br>textArea :" +textArea ;
 
 function sendEmail(){
-    /*const bodyMessage =`full Name :${fullName.value}<br>Email :${email.value}<br>
-    subject :${subject.value}<br>textArea :${textArea.value}`;
-*/
+    // const bodyMessage =`full Name :${fullName.value}<br>Email :${email.value}<br>
+    // subject :${subject.value}<br>textArea :${textArea.value}`;
+
     Email.send({
         secureToken :"92219810-8904-4323-a70c-6363a08d815c",
        Host : "smtp.elasticemail.com",

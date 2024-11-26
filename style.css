@@ -127,9 +127,9 @@ section .title::after{
 }
                                         /* sumit work nav hover style*/
 
-.navbar ul li:hover{
+/* .navbar ul li:hover{
     /* border: 3px thick rgb(236, 236, 240); */
-    color: blue;
+    /* color: blue;
     box-shadow: 3px 3px 3px rgb(186, 11, 11);
     animation: navH 3s 1 1s linear ;
     font-size: 20px;
@@ -143,8 +143,8 @@ section .title::after{
     100%{
         transform: rotate(360deg);
         
-    }
-}
+    } */
+/* } */ 
 
 
 /************************ menu btn styling *****************/
@@ -391,19 +391,28 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
+.skills-content .right .Java::before{
     width: 80%;
 }
-.skills-content .right .php::before{
-    width: 50%;
+.skills-content .right .HTML::before{
+    width: 90%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .CSS::before{
+    width: 70%;
+}
+.skills-content .right .JavaScript::before{
+    width: 80%;
+}
+.skills-content .right .Bootstrap::before{
+    width: 60%;
+}
+.skills-content .right .React::before{
+    width: 64%;
+}
+.skills-content .right .GitHub::before{
+    width: 80%;
+}
+.skills-content .right .MySQL::before{
     width: 70%;
 }
 
